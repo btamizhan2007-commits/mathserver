@@ -1,7 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
 # Date:05/10/2025
-# Ref no:25018064
-# Name:Tamizhan b
 # AIM:
 To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side.
 
@@ -31,7 +29,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :math.html
-
+```
 <html>
 <head>
     <title>Power Calculator</title>
@@ -133,6 +131,8 @@ urlpatterns = [
     path('powercalculator/',views.powercalc,name="powercalculator"),
     path('',views.powercalc,name="powercalculatorroot")
 ]
+
+```
 
 # SERVER SIDE PROCESSING:<img width="1920" height="1080" alt="Server side processing" src="https://github.com/user-attachments/assets/8e7d2ca4-d9ce-4737-a945-5eafb28cc59b" />
 
